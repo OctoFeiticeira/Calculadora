@@ -1,0 +1,41 @@
+.calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #205fd5; /* Cor de fundo azul */
+}
+
+.calculator {
+    background-color: #3688be; /* Cor de fundo mais escura */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.display {
+    background-color: #FFFFFF; /* Cor de fundo do display */
+    color: #333333; /* Cor do texto no display */
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #1d498c; /* Cor dos botões */
+    color: #FFFFFF; /* Cor do texto nos botões */
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #512DA8; /* Cor dos botões no hover */
+}
